@@ -7,7 +7,7 @@
 
 In early centuries, during the third age of men, a magician Gandalf - The Grey has set out to collect pumpkins on the Halloween Night to help men protect the world from onset of the age of ghosts who may use these pumpkins to rule them all. Help our magician to defeat the dark forces.
 
-### Anxious to play? <a href="https://halloween-night.herokuapp.com/" target="_blank">Click me!</a>
+### Anxious to play? <a href="http://35.197.70.203/" target="_blank">Click me!</a>
 
 ## Gameplay
 > ![](src/giphy.gif)
@@ -27,7 +27,7 @@ In early centuries, during the third age of men, a magician Gandalf - The Grey h
 
 ## Technology Stack
 
-![](src/halloween(1).png)
+![](src/halloween(2).png)
 
 <br/>
 <table>
@@ -48,7 +48,7 @@ In early centuries, during the third age of men, a magician Gandalf - The Grey h
 	</tr>
 	<tr>
 		<td>Deployment</td>
-		<td>Docker, Kubernetes, Heroku</td>
+		<td>Docker, Kubernetes</td>
 	</tr>
 </tbody>
 </table>

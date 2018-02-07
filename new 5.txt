@@ -1,0 +1,45 @@
+### run kubernetes locally
+
+install kubectl - kubernetes command line.
+install minikube - cluster for your kubernetes application locally.
+
+ -- minikube start --vm-driver=hyperv
+ 
+ configure kubernetes to talk to minikube cluster
+ -- kubectl config use-context minikube
+ 
+ check status of connection between kubectl and minikube
+ -- kubectl cluster-info
+ -- kubectl cluster-info dump
+ 
+ //imp
+ -- @FOR /f "tokens=* delims=^L" %i IN ('minikube docker-env') DO %i
+ 
+ run docker image in kubernetes minikube
+ -- kubectl run game --image=sunnyudhani/halloweennight-phaser --port=5000
+ 
+ see the deployment
+ -- kubectl get deployments
+ -- kubectl get pods
+ -- kubectl get events
+ -- kubectl config view
+ -- kubectl describe pods game
+ 
+ // game-6c6f9b8cb7-nxkvk
+ 
+ -- kubectl logs game-6c6f9b8cb7-nxkvk
+ 
+ 
+ -- kubectl set image deployment/game game=registry.heroku.com/halloween-night/web
+ 
+ -- minikube dashboard
+ 
+ -- kubectl expose deployment game --type=NodePort
+ 
+ -- kubectl describe service game
+ 
+ -- minikube service --url=true game
+ 
+ //  http://172.18.126.152:32581
+
+ //  http://35.197.70.203/
